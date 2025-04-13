@@ -1,8 +1,8 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
+		"name": "Humans",
+		"leaderName": "Gamesh Von Eizenberg",
+		"adjective": ["humans"],
 		"startBias": ["Snow"],
 		"preferredVictoryType": "Scientific",
 		
