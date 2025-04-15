@@ -1,16 +1,15 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
+		"name": "Workerrrr",
+		"unitType": "Civilian",
+		"uniqueTo": "Humans",
+        "movementType": "Land",
+		"movement": 10,
+		"strength": 1200,
+		"rangedStrength": 1200,
+		"range": 1200,
+		"cost": 5,
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
 	}
