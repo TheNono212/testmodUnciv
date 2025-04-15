@@ -1,16 +1,16 @@
 [
 	{
-		"name": "Holodeck",
+		"name": "testBuilding",
 		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"uniqueTo": "Humans",
+		"cost": 5,
+		"happiness": 3000,
+		"culture": 300000,
+		"science": 300000,
+		"production": 300000,
+		"gold": 300000,
+		"maintenance": 1,
+		"isNationalWonder": false
 	},
 	{
 		"name": "Breeders",
@@ -23,12 +23,14 @@
 		"requiredTech": "Engineering"
 	},
 	{
-		"name": "TestBuilding",
-		"uniqueTo": "Humans",
-		"cost": 10,
-		"hurryCostModifier": 20,
-		"happiness": 1,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
+		"name": "GrenierPerso",
+		"cost": 5,
+		"food": 3000,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
 		"requiredTech": "Pottery"
 	}
 ]
