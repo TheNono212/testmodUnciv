@@ -1,0 +1,12 @@
+[
+
+	{
+		"name": "Puissance de Jadal",
+		"uniques": ["[+20]% Strength <when fighting in [Your] tiles>"],
+		"unitTypes": ["Cavalerie de Jadal"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234],
+        "row": 7,
+        "column": 0
+    }
+]

@@ -1,16 +1,32 @@
 [
 	{
-		"name": "Workerrrr",
-		"unitType": "Civilian",
-		"uniqueTo": "Humans",
+		"name": "Cavalerie Legère",
+		"unitType": "Cavalerie de Jadal",
+		"uniqueTo": "Royaume Humain",
         "movementType": "Land",
-		"movement": 10,
-		"strength": 1200,
-		"rangedStrength": 1200,
-		"range": 1200,
-		"cost": 5,
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+		"replaces": "Horseman",
+		"movement": 4,
+		"strength": 12,
+		"cost": 60,
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"requiredTech": "Trapping",
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cavalerie Lourde",
+		"unitType": "Cavalerie de Jadal",
+		"uniqueTo": "Royaume Humain",
+        "movementType": "Land",
+		"replaces": "Knight",
+		"movement": 4,
+		"strength": 22,
+		"cost": 110,
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"requiredTech": "Chivalry",
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
 	}
 ]
